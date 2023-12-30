@@ -94,7 +94,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 DATABASES = {
     'default': dj_database_url.config(
-        default="postgres://spinnyboxdatabase_leza_user:KGZG5963LSHOOFfoVrnayCQuxyoEFUce@dpg-cm7s036d3nmc73ch944g-a/spinnyboxdatabase_leza",
+        default="postgres://spinnyboxdatabase_leza_user:KGZG5963LSHOOFfoVrnayCQuxyoEFUce@dpg-cm7s036d3nmc73ch944g-a.singapore-postgres.render.com/spinnyboxdatabase_leza",
         conn_max_age=600,
         conn_health_checks=True,
     ),
