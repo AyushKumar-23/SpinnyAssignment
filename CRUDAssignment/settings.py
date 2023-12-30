@@ -94,11 +94,12 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 DATABASES = {
     'default': dj_database_url.config(
-        default="postgres://spinnyboxdatabase_user:GmxV2SUns8c2IstaDRhh0OipuGT2EwAk@dpg-cm7km7un7f5s73ebg1f0-a/spinnyboxdatabase",
+        default="postgres://spinnyboxdatabase_leza_user:KGZG5963LSHOOFfoVrnayCQuxyoEFUce@dpg-cm7s036d3nmc73ch944g-a/spinnyboxdatabase_leza",
         conn_max_age=600,
         conn_health_checks=True,
     ),
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
